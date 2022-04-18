@@ -13,6 +13,7 @@ export class AppComponent {
   //showAdminBoard = false;
   //showModeratorBoard = false;
   username?: string;
+  title: any = "Report Generator";
 
   constructor(private tokenStorageService: TokenStorageService, private authService: AuthService) { }
 
